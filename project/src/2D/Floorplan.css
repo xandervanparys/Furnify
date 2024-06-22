@@ -1,0 +1,90 @@
+.editor-controls {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  align-items: center;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.btn-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  z-index: 100;
+  pointer-events: auto;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+
+/* button:hover {
+  -webkit-transform: scale(1.1);
+} */
+
+/* .unclicked:hover {
+    background-color: #e84646;
+    color: #ffffff;
+}
+
+.clicked:hover {
+    background-color: #f1f1f1;
+    color: #000000;
+} */
+
+.clicked {
+  background-color: #e84646;
+  color: #ffffff;
+}
+
+.unclicked {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+.slider {
+  display: flex;
+  appearance: none; /* removes browser-specific styling */
+  width: 300px; /* width of slider */
+  height: 25px; /* height of slider */
+  background: #e84646 ; /* #e84646 background */
+  outline: none; /* remove outline */
+  border-radius: 50px; /* round corners */
+  z-index: 100;
+  pointer-events: auto;
+}
+
+.slider::-webkit-slider-thumb {
+appearance: none; /* removes browser-specific styling */
+width: 20px; /* handle width */
+height: 20px; /* handle height */
+border-radius: 50%; /* make it circular */
+background: #FFFFFF; /* white color */
+cursor: pointer; /* cursor on hover */
+}

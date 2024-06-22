@@ -1,0 +1,58 @@
+.obstruction-bg{
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 10px solid transparent;
+    height: auto;
+}
+h5.obstacle{
+    align-content: center;
+}
+input{
+    border-radius: 4px;
+    border: solid transparent;
+    width: 100%;
+}
+.form-floating > label{
+    z-index: 1;
+}
+
+.btn-group > .btn-check:checked:not(:hover), .btn-group > .btn-check:checked:not(:hover) + .btn {
+    z-index: 0;
+}
+.fa-rectangle-xmark{
+    padding: 1px 10px;
+    color: white;
+    border: solid transparent;
+}
+
+.tbtn{
+    margin: 5px;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.white{
+    color: white;
+}
+
+
+.black{
+    color: black ;
+}
+
+
+
+.react-tel-input .form-control {
+    line-height: 25px;
+    height: 35px;
+    height: calc(3.5rem + calc(var(--bs-border-width)* 2));
+    min-height: calc(3.5rem + calc(var(--bs-border-width)* 2));
+    line-height: 1.25;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    width: 100% !important;
+    border: var(--bs-border-width) solid var(--bs-border-color) !important;
+}

@@ -1,0 +1,14 @@
+﻿naam;hoogte;diepte;breedte140;breedte160;breedte180;dicht;open;besparing;opkladbed;zetel;bureau;kast_met_zijschappen;kast;bed_bewegend;kast_bewegend;bureau_bewegend;tweede_kast_bewegend
+opklapbed;2211;400;1685;1741;1941;400;2190;4;true;false;false;false;false;false;false;false;false
+opklapbed_zetel;2211;400;1685;1741;1941;1225;2190;10;true;true;false;false;false;false;false;false;false
+bureau;2211;400;1685;1885;2085;400;1000;2;false;false;true;false;false;false;false;false;false
+kast_zij;2211;400;1685;1885;2085;400;400;2;false;false;false;true;false;false;false;false;false
+kast;2211;400;1685;1885;2085;400;400;2;false;false;false;false;true;false;false;false;false
+bureau_bedm;2211;800;1685;1885;2085;800;2750;6;false;false;true;false;false;true;false;false;false
+kast_bedm;2211;800;1685;1885;2085;800;2750;5.5;false;false;false;false;true;true;false;false;false
+kast_kastm;2211;800;1685;1885;2085;800;1600;3;false;false;false;false;true;false;true;false;false
+bureau_kastm;2211;800;1685;1885;2085;800;1600;5;false;false;true;false;false;false;true;false;false
+bureaum_bedm_kast;2211;800;1685;1885;2085;1200;3150;8;false;false;false;false;true;true;false;true;false
+bureaum_kastm_kast;2211;800;1685;1885;2085;1200;3150;5;false;false;false;false;true;false;true;true;false
+bureaum_bedm_kastm_kast;2211;800;1685;1885;2085;1600;3550;12;false;false;false;false;true;true;true;true;false
+kastm_bedm_kastm_kast;2211;800;1685;1885;2085;1600;3550;10;false;false;false;false;true;true;true;false;true

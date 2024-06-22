@@ -1,0 +1,139 @@
+.menu-bars {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    z-index: 999;
+    background-color: #dc3545;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+    border-radius: 5px;
+}
+
+.menu-bars:hover {
+    transform: scale(1.2);
+    background-color: #bb2d3b ;
+}
+
+.menu-bars-closed {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    color: #000000;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.nav-menu {
+    background-color: #fdfdfd;
+    width: 450px;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 850ms;
+    z-index: 999;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.nav-menu.active {
+    right: 0;
+    transition: 450ms;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+#logo {
+    width: 60%;
+    height: auto;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+#logo:hover {
+    transform: scale(1.05);
+}
+
+.bottom_btn {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    pointer-events: none;
+}
+
+.bottom_btn>button {
+    pointer-events: auto;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+    color: white;
+    background-color: #dc3545;
+    padding-top: 6px;
+}
+
+.bottom_btn_content {
+    font-size: 140%;
+}
+
+
+.bottom_btn>button:hover {
+    transform: scale(1.1);
+    background-color: #bb2d3b ;
+}
+
+/*render for mobile*/
+@media screen and (max-width: 450px) {
+
+    .nav-menu {
+        background-color: #eaeaea;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 100%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        overflow-x: hidden;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
+
+.privacy{
+    position: absolute;
+    flex-wrap: wrap;
+    bottom: 50px;
+    left: 10px;
+    z-index: 990;
+}
+
+/*specific color changes in sidebar for darkmode*/
+@media (prefers-color-scheme: dark) {
+    .nav-menu {
+        background-color: #242424;
+        color: white;
+
+    }
+
+    .menu-bars {
+        color: white;
+    }
+
+}
